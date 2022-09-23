@@ -19,13 +19,28 @@ object-fit:cover;
 `;
 const Info = styled.div`
 position:absolute;
+top:0;
+left:0;
+width: 100%;
+height: 100%;
+display:flex;
+flex-direction:column;
+justify-content:center;
+align-items:center;
 `;
-const Title = styled.h1`
 
+const Title = styled.h1`
+color:black;
+margin-bottom:20px;
 
 `;
 const Button = styled.button`
-
+border:none;
+padding:10px;
+color:gray;
+background-color:white;
+cursor:poniter;
+font-weight:600;
 
 `;
 const CategotyItem = ({item}) => {
@@ -33,7 +48,7 @@ const CategotyItem = ({item}) => {
     <Container>
         <Image src={item.img}/>
         <Info>
-            <Title>{item.titre}</Title>
+            <Title>{item.title}</Title>
             <Button>shop now</Button>
         </Info>
 
