@@ -6,6 +6,9 @@ import Product from './Product';
 const Container = styled.div`
 padding:20 px;
 display:flex;
+flex-wrap:wrap-reverse;
+justify-content:space-between;
+
 `;
 
 
