@@ -83,7 +83,7 @@ const Navbar = () => {
                     
                 </SearchContainer>
             </Left>
-            <Center><Logo>SOUL..</Logo></Center>
+            <Center><Logo>JOY..</Logo></Center>
             <Right>
 
                 <MenuItem>Register</MenuItem>

@@ -10,7 +10,7 @@ import Product from "./pages/Product";
 import Products from './components/Products';
 const App = () => {
 
-  return <Cart/>
+  return <Home/>
 
 };
 
